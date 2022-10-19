@@ -10,17 +10,10 @@ module.exports = {
       colors: {
         amazon_blue: {
           light: "#232F3E",
-          gold: "#dec16f",
-          goldhover: "#ccb36c",
           DEFAULT: "#131921",
         },
       },
     },
   },
-  variants: {
-    extend: {},
-  },
   plugins: [require("@tailwindcss/line-clamp")],
 };
-
-
