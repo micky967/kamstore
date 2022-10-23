@@ -1,3 +1,5 @@
+import firebase from 'firebase'
+
 const firebaseConfig = {
   apiKey: "AIzaSyC6eXlgvb9QcMTVwPdX-tjZcV-INty2WsI",
   authDomain: "kamstore-2051c.firebaseapp.com",
