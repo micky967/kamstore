@@ -23,9 +23,10 @@ function Checkout() {
       "/api/create-checkout-session",
       {
         items,
-        email: session.user.email,
+        // email: session.user.email,
       }
     );
+    console.log("session");
 
     // Redirect Customer to Checkout
     const result = await stripe.redirectToCheckout({
